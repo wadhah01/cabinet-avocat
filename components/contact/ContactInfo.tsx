@@ -75,7 +75,7 @@ export function ContactInfo() {
             className="bg-green-500 hover:bg-green-600 text-white font-semibold"
           >
             <a 
-              href="https://wa.me/33142345678" 
+              href="https://wa.me/21698567372" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2"
