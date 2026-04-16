@@ -4,13 +4,13 @@ import { Inter } from 'next/font/google';
 import { TopNavbar } from '@/components/navigation/TopNavbar';
 import { MainNavbar } from '@/components/navigation/MainNavbar';
 import { Footer } from '@/components/layout/Footer';
-
+import { Analytics } from "@vercel/analytics/next";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Maître Dubois - Avocat à Paris | Cabinet d\'Avocats Spécialisé',
+  title: 'Maître Issam Agoubi - Avocat à Gabès,Tunisie | Cabinet d\'Avocat Spécialisé',
   description: 'Cabinet d\'avocats spécialisé en droit civil, commercial et immobilier à Gabès. Maître Agoubi Issam vous accompagne avec expertise et professionnalisme.',
-  keywords: 'avocat Paris, droit civil, droit commercial, droit immobilier, cabinet avocat, conseil juridique',
+  keywords: 'avocat Gabès, droit civil, droit commercial, droit immobilier, cabinet avocat, conseil juridique',
   openGraph: {
     title: 'Maître Agoubi Issam - Avocat à Gabès',
     description: 'Cabinet d\'avocats spécialisé en droit pénal,  civil, commercial et immobilier',
