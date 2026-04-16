@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Nos Spécialités en Droit | Cabinet Issam Agoubi - Avocat Gabes,Tunisie',
-  description: 'Découvrez nos domaines d\'expertise : droit pénal, civil, commercial, immobilier, famille et succession. Accompagnement juridique professionnel à Gabès.',
-  keywords: 'spécialités juridiques, droit civil, droit commercial, droit immobilier, droit famille, succession, avocat spécialisé Gabès',
+description: "Cabinet d'avocats de référence à Gabès. Expertise en droit civil, commercial et immobilier. Conseil juridique personnalisé et accompagnement professionnel.", 
+keywords: 'spécialités juridiques, droit civil, droit commercial, droit immobilier, droit famille, succession, avocat  Gabès',
   openGraph: {
     title: 'Nos Spécialités en Droit | Cabinet Agoubi Issam',
     description: 'Domaines d\'expertise juridique : droit pénal, civil, commercial et immobilier',
