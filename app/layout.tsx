@@ -5,6 +5,7 @@ import { TopNavbar } from '@/components/navigation/TopNavbar';
 import { MainNavbar } from '@/components/navigation/MainNavbar';
 import { Footer } from '@/components/layout/Footer';
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -64,6 +66,20 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+         {/* Google Analytics */}
+  <Script
+    src="https://www.googletagmanager.com/gtag/js?id=G-MTWC7WNFG0"
+    strategy="afterInteractive"
+  />
+  <Script id="google-analytics" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MTWC7WNFG0');
+    `}
+  </Script>
+
         <Analytics />
 
       </body>
