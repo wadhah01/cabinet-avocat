@@ -13,7 +13,7 @@ export function Footer() {
               <span className="text-xl font-bold">Cabinet Agoubi Issam</span>
             </div>
             <p className="text-blue-100 mb-4 max-w-md">
-              Cabinet d'avocat de référence en Tunisie , spécialisé dans le conseil juridique 
+              Cabinet d'avocat de référence en Tunisie, spécialisé dans le conseil juridique 
               et l'accompagnement de particuliers et entreprises.
             </p>
           </div>
@@ -58,7 +58,19 @@ export function Footer() {
         </div>
 
         <div className="border-t border-blue-800 mt-8 pt-8 text-center text-blue-100">
-          <p>&copy; 2025 Cabinet Agoubi Issam. Tous droits réservés.</p>
+          <p>&copy; 2026 Cabinet Agoubi Issam. Tous droits réservés.</p>
+
+          <p className="mt-2 text-sm text-blue-200">
+            Développé par{" "}
+            <a
+              href="https://wadhahagoubi.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-400 hover:text-yellow-300 transition-colors font-medium"
+            >
+              Wadhah Agoubi
+            </a>
+          </p>
         </div>
       </div>
     </footer>
